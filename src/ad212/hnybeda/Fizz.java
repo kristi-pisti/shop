@@ -1,7 +1,5 @@
 package ad212.hnybeda;
 
-
-
 public class Fizz {
     public static void main(String[] args) {
         a();
