@@ -8,7 +8,7 @@ class Person {
         this.name = name;
         this.age = age;
     }
-
+/*
     public String getName() {
         return name;
     }
@@ -23,7 +23,7 @@ class Person {
 
     public void setAge(int age) {
         this.age = age;
-    }
+    } */
 
     public void printInfo() {
         System.out.println("Name: " + name + "; Age: " + age);
@@ -39,7 +39,7 @@ class Student extends Person {
         this.gr_Number = groupNumber;
         this.ticketNumber = ticketNumber;
     }
-
+/*
     public int getGroupNumber() {
         return gr_Number;
     }
@@ -56,7 +56,7 @@ class Student extends Person {
         this.ticketNumber = ticketNumber;
     }
 
-
+*/
     public void printInfo() {
         System.out.println("Student of group: " + gr_Number + "; Name: " + name + "; Age: " + age + "; Student ticket number: " + ticketNumber);
     }
@@ -72,7 +72,7 @@ class Lecturer extends Person {
         this.location = location;
         this.money = money;
     }
-
+/*
     public String getDepartment() {
         return location;
     }
@@ -88,7 +88,7 @@ class Lecturer extends Person {
     public void setSalary(int salary) {
         this.money = money;
     }
-
+*/
 
     public void printInfo() {
         System.out.println("Lecturer of the department: " + location + "|Name= " + name + "| Age = " + age + "| Salary= " + money);
